@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(12, 5, 5, 0.762);
+    font-family: 'Protest Strike', sans-serif;
+    color: aquamarine;
+}
+.title{
+    margin-left: 30%;
+}
+.title h1{
+    font-size: 4em;
+}
+.players{
+    margin-left: 20px;
+}
+.players,dice{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#p2{
+    margin-left: 200px;
+    height: 200px;
+}
+#p1{
+    height: 200px;
+    margin-left:20px;
+}
